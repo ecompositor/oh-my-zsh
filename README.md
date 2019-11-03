@@ -6,6 +6,9 @@ Oh My Zsh is an open source, community-driven framework for managing your [zsh](
 
 Sounds boring. Let's try again.
 
+# This fork of oh-my-zsh is customized for the tool set on the active project i am working on.  
+## If you are on my Team you are at the right place if not work with the  robbyrullel/oh-my-zsh
+
 __Oh My Zsh will not make you a 10x developer...but you may feel like one.__
 
 Once installed, your terminal shell will become the talk of the town _or your money back!_ With each keystroke in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes. Strangers will come up to you in cafés and ask you, _"that is amazing! are you some sort of genius?"_
@@ -30,13 +33,13 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 #### via curl
 
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ecompositor/oh-my-zsh/master/tools/install.sh)"
 ```
 
 #### via wget
 
 ```shell
-sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(wget -O- https://raw.githubusercontent.com/ecompositor/oh-my-zsh/master/tools/install.sh)"
 ```
 
 #### Manual inspection
@@ -46,7 +49,7 @@ that by downloading the install script first, looking through it so everything l
 then running it:
 
 ```shell
-curl -Lo install.sh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+curl -Lo install.sh https://raw.githubusercontent.com/ecompositor/oh-my-zsh/master/tools/install.sh
 sh install.sh
 ```
 
@@ -164,7 +167,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 The install script also accepts these variables to allow installation of a different repository:
 
-- `REPO` (default: `robbyrussell/oh-my-zsh`): this takes the form of `owner/repository`. If you set
+- `REPO` (default: `ecompositor/oh-my-zsh`): this takes the form of `owner/repository`. If you set
   this variable, the installer will look for a repository at `https://github.com/{owner}/{repository}`.
 
 - `REMOTE` (default: `https://github.com/${REPO}.git`): this is the full URL of the git repository
@@ -188,7 +191,7 @@ REPO=apjanke/oh-my-zsh BRANCH=edge sh install.sh
 ##### 1. Clone the repository:
 
 ```shell
-git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+git clone https://github.com/ecompositor/oh-my-zsh.git ~/.oh-my-zsh
 ```
 
 ##### 2. *Optionally*, backup your existing `~/.zshrc` file:
